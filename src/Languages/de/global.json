@@ -1,0 +1,48 @@
+{
+    "header": {
+        "nav": {
+            "aboutMe": "Über mich",
+            "wcid": "Was kann ich tun?",
+            "projects": "Meine Projekte",
+            "contact": "Kontakt",
+            "lanSel": {
+                "lan": "Sprache",
+                "es": "Español",
+                "en": "English",
+                "de": "Deutsch"
+            }
+        }
+    },
+    "main": {
+        "aboutMePage": {
+            "introduction": "Hallo, ich möchte mich vorstellen. Mein vollständiger Name ist Jeremías Nicolás Guedes Mendes und ich komme aus Buenos Aires, Argentinien, oder wie ich es gerne nenne, die südliche Zivilisation (eine Anspielung auf Santi Siri).\nEnde 2022/Anfang 2023 begann ich, die Welt der Programmierung und Softwareentwicklung zu erkunden und mich einzutauchen, nachdem ich meinen ersten PC zusammengebaut hatte, indem ich einzelne Komponenten gekauft hatte (er startete auf Anhieb :) ).\nDerzeit habe ich noch nicht viel Erfahrung in diesem Bereich, abgesehen von einigen Landing Pages und persönlichen Projekten, aber ich lerne schnell. Zu Beginn des Jahres wusste ich nicht einmal, was eine HTML-Datei ist, und jetzt lerne ich Backend-Entwicklung mit Node.js und MongoDB.\nIch wage zu behaupten, dass ich in HTML, CSS, SASS, GIT, JavaScript und React JS kompetent bin; und wie bereits erwähnt, lerne ich Node.js, MongoDB und Express JS bei CODERHOUSE. Ich bin auch für den Kurs Big Data/Data Analytics bei Codo a Codo (ein Regierungsprogramm) eingeschrieben und habe einige Kenntnisse in Python aus YouTube.\nIn Zukunft möchte ich sowohl relationale als auch nichtrelationale Datenbanken (wie MongoDB und MySQL) beherrschen, solide Python-Kenntnisse erlangen, um in die Welt der künstlichen Intelligenz einzutauchen (tatsächlich werde ich die Eingangsprüfung für den Bachelorstudiengang in Data Science an der UBA XXI ablegen, mit Schwerpunkt auf neuronalen Netzwerken und künstlicher Intelligenz). Ich möchte auch schwach typisierte Sprachen erkunden, höchstwahrscheinlich Go, um irgendwann in der Backend-Entwicklung mit dieser Sprache zu arbeiten.\nIch betrachte mich als Technologiebegeisterten; ich liebe es, immer auf dem neuesten Stand zu bleiben und ständig zu lernen. Ich bin ein Autodidakt und vieles von dem, was ich im Leben weiß, stammt von YouTube und dem Internet im Allgemeinen. Während der Pandemie habe ich mich herausgefordert, endlich Englisch zu lernen, nach jahrelangem Privatunterricht mit wenig Fortschritt. Ich habe täglich zwischen drei und vier Stunden englische Videos von Muttersprachlern geschaut (anfangs habe ich überhaupt nichts verstanden), und am Ende der Pandemie konnte ich alles, was ich sah, ohne Probleme verstehen. Jetzt lerne ich Deutsch zu 100% auf eigene Faust, nehme es sehr langsam, aber nach einem Jahr kann ich bereits den allgemeinen Kontext von deutschen Videos verstehen und einfache Texte lesen (ich glaube, dass ich in diesem Tempo in einem weiteren Jahr sagen werde, dass ich Deutsch verstehe :)."
+        },
+        "wcidPage": {
+            "h1": "Welche Technologien beherrsche ich?",
+            "h3": "(Klicken Sie auf die Icons)",
+            "techInfo": {
+                "HTML": "HTML ist eine Hypertext-Auszeichnungssprache, die verwendet wird, um den Inhalt einer Webseite zu strukturieren, es ist sozusagen das \"Skelett\" einer Seite.",
+                "CSS": "CSS ist eine Stylesheet-Sprache, die verwendet wird, um einer Webseite Stil und Design zu verleihen, es ist sozusagen die \"Haut\" einer Seite.",
+                "SASS": "SASS ist ein CSS-Präprozessor, der zusätzliche Funktionen und eine leistungsfähigere Syntax bietet, vergleichbar mit Make-up.",
+                "JavaScript": "JavaScript ist eine Programmiersprache, die verwendet wird, um einer Webseite Interaktivität zu verleihen, es ist das, was sie zum Funktionieren bringt, vergleichbar mit Organen oder Muskeln.",
+                "React": "React JS ist eine JavaScript-Bibliothek, die zur Erstellung interaktiver und wiederverwendbarer Benutzeroberflächen verwendet wird, es ist vergleichbar mit der Arbeit mit Teilen anstelle von Ebenen (Kopf, Hände usw.).",
+                "GIT": "GIT ist ein Versionskontrollsystem, mit dem Änderungen im Quellcode nachverfolgt und an Projekten zusammengearbeitet werden kann, sodass Sie zurückspringen können, wenn etwas kaputt geht."
+            }
+            
+        },
+        "projectsPage": {
+            "h1": "Hier ist eine Liste der Projekte, an denen ich gearbeitet habe:",
+            "projectsList": {
+                "mbPVC": "Matías Benítez, construcciones en seco."
+            }
+        },
+        
+        "contactPage": {
+            "h1": "Wie können Sie mit mir in Kontakt treten?",
+            "h3": "Sie können mich jederzeit über meine Social-Media-Konten kontaktieren:"
+        }
+    },
+    "footer": {
+        "copy": "2023 Jeremías Nicolás Guedes Mendes. Alle Rechte vorbehalten."
+    }    
+}
