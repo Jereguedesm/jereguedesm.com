@@ -4,3 +4,12 @@
   box-sizing: border-box;
   background-color: black;
 }
+body{
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  font-size: 62.5%;
+  font-family: 'Roboto', sans-serif;
+}

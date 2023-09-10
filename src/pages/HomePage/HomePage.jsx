@@ -5,9 +5,9 @@ import TechBackground from '../../components/TechBackground/TechBackground'
 
 const HomePage = () => {
   return (
-    <div>
+    <main className='techBackgroundContainer'>
       <TechBackground/>
-    </div>
+    </main>
   )
 }
 

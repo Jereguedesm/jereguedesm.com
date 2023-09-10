@@ -1,6 +1,9 @@
 import React, { useState } from 'react'
 import { NavLink, useLocation} from "react-router-dom"
 import { useTranslation } from 'react-i18next'
+import DeployableMenu from '../MUIComponents/DeployableMenu/DeployableMenu'
+
+
 
 import "./NavBar.css"
 
@@ -15,7 +18,8 @@ const NavBar = () => {
 
 
   return (
-    <nav>
+    <>
+        <nav className='desktopNav'>
         <ul>
         <li>
                 <NavLink to="/" className={`a ${location.pathname === '/' ? 'activeLink' : ''}`}>
@@ -49,6 +53,11 @@ const NavBar = () => {
                 </li>
         </ul>
     </nav>
+    <nav className='mobileNav'>
+        <DeployableMenu/>
+    </nav>
+    </>
+    
   )
 }
 
