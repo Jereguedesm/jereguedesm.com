@@ -19,21 +19,28 @@ main{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        //text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
         h1, h3{
             text-align: center;
             color: $lowGrey;
+            padding: 3px;
+            text-shadow: 0px 0px 5px rgb(255, 255, 255);
         }
         h1{
             font-size: 2rem;
             padding: 3px;
+            font-weight: 450;
         }
         h3{
             font-size: 1.5rem;
             padding: 3px;
             margin-bottom: 20px;
+            font-weight: 350;
         }
+        
     }
-    section{
+    
+    /*section{
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -61,8 +68,171 @@ main{
         left: 0;
         width: 0;
         z-index: 9999;
-      }
+      }*/
 }
 .mainNotHome{
     background-color: $body-color;
+}
+.contactPage{
+    h1{
+        text-align: center;
+        color: $lowGrey;
+        padding: 3px;
+        text-shadow: 0px 0px 5px rgb(255, 255, 255);
+        font-size: 2rem;
+        padding: 3px;
+        font-weight: 450;
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        li{
+            margin: 15px auto;
+            a{
+                margin: 10px;
+                padding: 7px;
+                img{
+                    width: 130px;
+                    height: auto;
+                }
+            }
+        }
+    }
+}
+.skillsPage{
+    width: 100vw;
+    margin-bottom: 10px;
+    h1{
+        text-align: center;
+        color: $lowGrey;
+        padding: 3px;
+        text-shadow: 0px 0px 5px rgb(255, 255, 255);
+        font-size: 2rem;
+        padding: 3px;
+        font-weight: 450;
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        width: 100vw;
+        margin: auto;
+        li{
+            margin: 15px auto;
+            button{
+                text-decoration: none;
+                border: none;
+                margin: 10px;
+                
+                img{
+                    width: 130px;
+                    height: auto;
+                    background-color: #000714;
+                }
+            }
+        }
+    }
+}
+.portfolioPage{
+    width: 100vw;
+    margin-bottom: 10px;
+    h1{
+        text-align: center;
+        color: $lowGrey;
+        padding: 3px;
+        text-shadow: 0px 0px 5px rgb(255, 255, 255);
+        font-size: 2rem;
+        padding: 3px;
+        font-weight: 450;
+    }
+    h3{
+        text-align: center;
+        color: $lowGrey;
+        padding: 3px;
+        text-shadow: 0px 0px 5px rgb(255, 255, 255);
+        font-size: 1rem;
+        padding: 3px;
+        font-weight: 450;
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        width: 100vw;
+        margin: auto;
+        li{
+            margin: 15px auto;
+            a{
+                font-size: 1.2rem;
+                color: #ffffff;
+                text-decoration: none;
+                &:visited{
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+}
+.aboutPage{
+    h1{
+        text-align: center;
+        color: $lowGrey;
+        padding: 3px;
+        text-shadow: 0px 0px 5px rgb(255, 255, 255);
+        font-size: 2rem;
+        padding: 3px;
+        font-weight: 450;
+    }
+    p{
+        max-width: 80vw;
+        color: #ffffff;
+        font-size: 1rem;
+        text-align: justify;
+        text-align: center;
+        margin: auto;
+    }
+}
+
+
+
+
+
+
+.animated-text {
+    display: block;
+    animation-duration: 1.5s; /* Duración de la animación */
+    animation-fill-mode: both; /* La animación mantiene el estado final después de terminar */
+}
+@keyframes slide-up {
+    0% {
+        transform: translateY(20px); /* Comienza 20px más abajo */
+        opacity: 0; /* Comienza completamente transparente */
+    }
+    100% {
+        transform: translateY(0); /* Termina en su posición original */
+        opacity: 1; /* Termina completamente visible */
+    }
+}
+
+/* Animación para la bajada */
+@keyframes slide-down {
+    0% {
+        transform: translateY(0); /* Comienza en su posición original */
+        opacity: 1; /* Comienza completamente visible */
+    }
+    100% {
+        transform: translateY(20px); /* Termina 20px más abajo */
+        opacity: 0; /* Termina completamente transparente */
+    }
+}
+
+/* Aplica la animación de subida cuando entra al viewport */
+.animated-text.in {
+    animation-name: slide-up;
+}
+
+/* Aplica la animación de bajada cuando sale del viewport */
+.animated-text.out {
+    animation-name: slide-down;
 }
