@@ -1,0 +1,47 @@
+{
+    "header": {
+        "nav": {
+            "aboutMe": "About Me",
+            "wcid": "What Can I Do?",
+            "projects": "My Projects",
+            "contact": "Contact",
+            "lanSel": {
+                "lan": "Language",
+                "es": "Español",
+                "en": "English"
+            }
+        }
+    },
+    "main": {
+        "aboutMePage": {
+            "introduction": "Hello, let me introduce myself. My full name is Jeremías Nicolás Guedes Mendes, and I'm from Buenos Aires, Argentina, or as I like to call it, the southern civilization (a nod to Santi Siri).\nIn late 2022/early 2023, I started exploring and delving into the world of programming and software development after assembling my first PC by purchasing individual components (it started up on the first try :) ).\nCurrently, I don't have much experience in the field apart from some landing pages and personal projects; but I learn quickly. At the beginning of the year, I didn't even know what an HTML file was, and now I'm learning backend development with Node.js and MongoDB.\nI dare say that I'm proficient in HTML, CSS, SASS, GIT, JavaScript, and React JS; and as I mentioned, I'm learning Node.js, MongoDB, and Express JS through CODERHOUSE. I'm also enrolled in the Big Data/Data Analytics course at Codo a Codo (a government program), and I have some knowledge of Python from YouTube.\nIn the future, I'd like to master both relational and non-relational databases (like MongoDB and MySQL), have strong Python skills to delve into the world of artificial intelligence (in fact, I'm taking the entrance exam for the Bachelor's Degree in Data Science at UBA XXI, specifically focusing on neural networks and artificial intelligence). I'd also like to explore weakly-typed languages, most likely Go, to eventually work on backend development with that language.\nI consider myself a technology enthusiast; I love staying up to date with all the latest trends and constantly learning. I'm a self-taught individual, and much of what I know in life comes from YouTube and the internet in general. During the pandemic, I challenged myself to finally learn English after years of private lessons with little progress. I watched between three to four hours of native English videos daily (initially not understanding anything at all), and by the end of the pandemic, I could understand everything I watched without any issues. Now, I'm learning German 100% on my own, taking it very slowly, but after a year, I can already understand the general context of German videos and read simple texts (I believe that at this rate, in one more year, I'll be able to say that I understand German :)."
+        },
+        "wcidPage": {
+            "h1": "What Technologies Do I Master?",
+            "h3": "(Click on the icons)",
+            "techInfo": {
+                "HTML": "HTML is a hypertext markup language used to structure the content of a web page, in other words, it's the \"skeleton\" of a page.",
+                "CSS": "CSS is a stylesheet language used to give style and design to a web page, it's like the \"skin\" of a page.",
+                "SASS": "SASS is a CSS preprocessor that offers additional features and a more powerful syntax, like makeup.",
+                "JavaScript": "JavaScript is a programming language used to add interactivity to a web page, it's what makes it work, like organs or muscles.",
+                "React": "React JS is a JavaScript library used to build interactive and reusable user interfaces; it's like working with parts instead of layers (head, hands, etc...).",
+                "GIT": "GIT is a version control system that allows tracking changes in the source code and collaborating on projects, so you can go back when something breaks."
+            }
+            
+        },
+        "projectsPage": {
+            "h1": "Here's a list of the projects/jobs I've worked on:",
+            "projectsList": {
+                "mbPVC": "Matías Benítez, construcciones en seco."
+            }
+        },
+        
+        "contactPage": {
+            "h1": "How Can You Get in Touch with Me?",
+            "h3": "You can contact me anytime through my social media accounts:"
+        }
+    },
+    "footer": {
+        "copy": "2023 Jeremías Nicolás Guedes Mendes. All rights reserved."
+    }    
+}

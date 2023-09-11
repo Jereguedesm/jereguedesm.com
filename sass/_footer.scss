@@ -1,3 +1,18 @@
 footer{
-    background-color: $background-footer;
+    //background-color: $background-footer;
+    //bottom: 0;
+    //width: 100vw;
+    width: fit-content;
+    margin: 5px auto;
+        div{
+            p{
+                font-size: 1.1rem;
+                text-align: center;
+                padding: 3px;
+                border: solid #ffffff7d 2px;
+                border-radius: 10px;
+                color: #ffffff7d;
+                text-align: center;
+            }
+        }
 }

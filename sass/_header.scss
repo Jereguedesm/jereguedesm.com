@@ -1,6 +1,7 @@
 header{
-    background-color: $beige2;
+    background-color: $gris1;
     height: 150px;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
 
     nav{
         height: 150px;
@@ -15,15 +16,22 @@ header{
                 text-decoration: none;
                 font-size: 1.2rem;
                 color: #ffffff;
+                
                 a{
                     text-decoration: none;
                     color: #ffffff;
                     font-weight: 350;
+                    padding: 3px;
+                    margin: 10px;
+                    &:hover{
+                        border: solid 1px #ffffff;
+                        border-radius: 10px;
+                    }
                 }
-                img{
+                /*img{
                     height: 150px;
                     width: 150px;
-                }
+                }*/
             }
         }
     }

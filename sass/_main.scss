@@ -1,8 +1,7 @@
 main{
-    display: grid;
-    grid-template-columns: 150px auto;
-    grid-template-rows: auto;
-    aside{
+    
+    width: 100vw;
+    /*aside{
         background-color: $beige1;
         nav{
             ul{
@@ -13,6 +12,25 @@ main{
                     padding: 7px;
                 }
             }
+        }
+    }*/
+    .home-introduction{
+        margin: auto auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        h1, h3{
+            text-align: center;
+            color: $lowGrey;
+        }
+        h1{
+            font-size: 2rem;
+            padding: 3px;
+        }
+        h3{
+            font-size: 1.5rem;
+            padding: 3px;
+            margin-bottom: 20px;
         }
     }
     section{
@@ -44,4 +62,7 @@ main{
         width: 0;
         z-index: 9999;
       }
+}
+.mainNotHome{
+    background-color: $body-color;
 }
