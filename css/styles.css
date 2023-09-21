@@ -141,8 +141,9 @@ main .home-introduction h3 {
   font-weight: 450;
 }
 .contactPage ul {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
   list-style-type: none;
 }
 .contactPage ul li {
@@ -153,7 +154,7 @@ main .home-introduction h3 {
   padding: 7px;
 }
 .contactPage ul li a img {
-  width: 130px;
+  width: 100px;
   height: auto;
 }
 
@@ -170,8 +171,9 @@ main .home-introduction h3 {
   font-weight: 450;
 }
 .skillsPage ul {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
   list-style-type: none;
   width: 100vw;
   margin: auto;
@@ -185,7 +187,7 @@ main .home-introduction h3 {
   margin: 10px;
 }
 .skillsPage ul li button img {
-  width: 130px;
+  width: 100px;
   height: auto;
   background-color: #000714;
 }
@@ -246,6 +248,18 @@ main .home-introduction h3 {
   margin: auto;
 }
 
+/*.navigateContainer{
+    display: flex;
+    flex-direction: column;
+    width:auto;
+    .navigate{
+        width: 15px;
+        color: $lowGrey;
+        padding: 3px;
+        font-size: 3rem;
+    }
+}
+*/
 .animated-text {
   display: block;
   animation-duration: 1.5s; /* Duración de la animación */
@@ -311,18 +325,34 @@ footer div p {
     margin: 15px auto;
     padding-top: 10px;
   }
+  main .mobileNav nav {
+    /*.navigateContainer{
+        ul{
+            list-style-type: none;
+            display: flex;
+            flex-direction: row;
+            li{
+
+            }
+        }
+    }*/
+  }
   main .mobileNav nav ul {
     list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
   }
   main .mobileNav nav ul li {
     text-align: center;
+    margin: 15px;
   }
   main .mobileNav nav ul li a {
     color: rgba(255, 255, 255, 0.4901960784);
     text-decoration: none;
-    padding: 3px;
-    margin: auto auto;
-    font-size: 1.2rem;
+    padding: 3px 4px;
+    margin: auto;
+    font-size: 1.5rem;
     border: solid 2px rgba(255, 255, 255, 0.4901960784);
     border-radius: 10px;
   }
