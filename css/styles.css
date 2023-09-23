@@ -248,6 +248,23 @@ main .home-introduction h3 {
   margin: auto;
 }
 
+.settingsPage {
+  background-color: rgba(50, 51, 80, 0.3019607843);
+  border-radius: 7px;
+  width: 50vw;
+  margin: auto;
+  text-shadow: 0px 0px 5px rgb(255, 255, 255);
+  box-shadow: 0px 0px 5px rgb(255, 255, 255);
+}
+.settingsPage p {
+  color: rgba(255, 255, 255, 0.4901960784);
+  text-align: justify;
+  text-align: center;
+  margin: auto;
+  font-size: 1rem;
+  padding: 17px;
+}
+
 /*.navigateContainer{
     display: flex;
     flex-direction: column;
@@ -268,7 +285,7 @@ main .home-introduction h3 {
 
 @keyframes slide-up {
   0% {
-    transform: translateY(20px); /* Comienza 20px más abajo */
+    transform: translateY(30px); /* Comienza 20px más abajo */
     opacity: 0; /* Comienza completamente transparente */
   }
   100% {
@@ -276,25 +293,9 @@ main .home-introduction h3 {
     opacity: 1; /* Termina completamente visible */
   }
 }
-/* Animación para la bajada */
-@keyframes slide-down {
-  0% {
-    transform: translateY(0); /* Comienza en su posición original */
-    opacity: 1; /* Comienza completamente visible */
-  }
-  100% {
-    transform: translateY(20px); /* Termina 20px más abajo */
-    opacity: 0; /* Termina completamente transparente */
-  }
-}
 /* Aplica la animación de subida cuando entra al viewport */
 .animated-text.in {
   animation-name: slide-up;
-}
-
-/* Aplica la animación de bajada cuando sale del viewport */
-.animated-text.out {
-  animation-name: slide-down;
 }
 
 footer {
