@@ -70,3 +70,18 @@ document.addEventListener('DOMContentLoaded', function() {
   window.addEventListener('scroll', toggleAnimation);
   toggleAnimation();
 });
+
+// language selector (doesn't work)
+/*const flagsElement = document.getElementById("flags")
+
+const changeLanguage = async (language) => {
+  const requestJson = await fetch (`./assets/Languages/${language}.json`)
+  const texts = await requestJson.json()
+
+  console.log(texts)
+}
+
+
+flagsElement.addEventListener("click", (e) => {
+  changeLanguage(e.target.parentElement.dataset.language)
+})*/

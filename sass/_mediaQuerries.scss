@@ -72,6 +72,25 @@
                         }*/
                     }
                 }
+                .headerSettings{
+                    display: flex;
+                    flex-direction: row;
+                    div{
+                        width: auto;
+                        img{
+                                width: 30px;
+                                height: auto;
+                                margin: 7px;
+                                border: none;
+                                display: block;
+                                &:hover{
+                                    transform: scale(1.05);
+                                    cursor: pointer;
+                                }
+                        }
+                    }
+                    
+                }
             }
         }
     }
@@ -94,9 +113,10 @@
         .skillsPage{
             ul{
                 display: grid;
-            grid-template-columns: 1fr 1fr;
-            grid-row: 1fr 1fr 1fr;
-            gap: 7px;
+                grid-template-columns: repeat(3, 1fr);
+                grid-row: auto;
+                gap: 7px;
+                width: 80vw;
             }
         }
         /*.porfolioPage{
